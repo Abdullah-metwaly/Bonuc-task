@@ -1,0 +1,112 @@
+body{ 
+    color: #555;
+    background-color: #776591;
+  }
+  
+  .sidebar-wrapper{
+    width: 600px;
+    margin: 30px auto;
+  }
+  
+  .sidebar{
+      display: block;
+      height: 100%;
+      height: 350px;
+      background-color: #FFF;
+      border-radius: 2px;
+  }
+  
+      /*Logo placeholder*/
+      .sidebar__logo{
+        background-color: #ffff79;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: -20px;
+      }
+      .sidebar__logo h3{
+          text-transform: uppercase;
+          color: #70f;
+          text-align: center;
+      }
+      /* .clearfix{
+        clear: both;
+      } */
+      /*Sidebar Navigation*/
+      .sidebar__nav{
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+        float: right;
+        width: 50%;
+      }
+      .sidebar__nav div{
+          display: none;
+          position: relative;
+          background: #eee;
+          height: 50px;
+          padding: 12px;
+          margin-top: 17px;
+          margin-left: 10px;
+          margin-right: 10px;
+          border-radius: 15px;
+          text-align: center;
+      }
+      .sidebar__nav div::before{
+        position: absolute;
+        content: '';
+        display: block;
+        border-width: 15px 15px 15px 15px;
+        border-style: solid;
+        border-color: transparent transparent #eee transparent;
+        bottom: 74px;
+        left: 135px;
+        width: 0;
+        height: 0;
+      }
+          .sidebar__nav li{
+              padding: 15px;
+              margin: auto;
+              cursor: pointer;
+              text-align: right;
+          }
+          .sidebar__nav li:hover + div{
+              display: block;
+          }
+          .sidebar__nav li:hover{
+              background-color: #F7F2FF;
+              color: #eee;
+              color: #222;
+              text-align: center;
+          }
+              .sidebar__nav li i{
+                  display: inline-block;
+              }
+      
+      /*Sideabr profile*/
+      .sidebar__profile{
+          background-color: #995BED;
+          text-align: center;
+          margin-top: 20px;
+          float: left;
+          width: 50%;
+          height: 85.59%;
+      }
+      .sidebar__profile > div{
+        background-color: #fff;
+        width: 200px;
+        margin: 17px auto;
+        height: 180px;
+        border-radius: 8px;
+      }
+          .sidebar__profile img{
+            margin-top: 17px;
+            border-radius: 8px;
+            width: 170px;
+            height: 150px;
+          }
+          .sidebar__profile h4{
+            margin-top: 0;
+            color: #fff;
+            font-size: 26px;
+          }
+  
